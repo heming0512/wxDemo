@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+    <!-- 用户登录测试 -->
+    <view class="userinfo2">
+        
+        <view>
+         <view class="uploader-text" bindtap="doMian">
+         <text class="userinfo-nickname" wx:if="{{titlename}}">你好,{{titlename}}</text> 
+           <text class="userinfo-nickname" wx:else>你好..陌生人</text> 
+            <!-- <text>你好,{{titlename}}</text> -->
+        </view>
+           
+           
+        </view>
+    </view>
+    </view>
+
+
+   
